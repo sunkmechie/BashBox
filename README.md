@@ -3,7 +3,7 @@
 ![Platform](https://img.shields.io/badge/platform-Linux%20%7C%20WSL-orange)
 ![License](https://img.shields.io/badge/license-MIT-lightgrey)
 ![Status](https://img.shields.io/badge/status-active-success)
-# CLI Tools
+# BashBox
 
 **A modular Terminal UI (TUI) utility suite built entirely in Bash.**
 While each tool in this suite could be executed manually via individual CLI commands, this project consolidates them into a unified, discoverable interface. It eliminates the need to memorize flags, reduces command errors, and provides a consistent workflow for document and image operations.
@@ -27,7 +27,7 @@ Fully offline. Fully modular. Built for terminal-first users.
 
 ## Overview
 
-CLI Tools is a self-contained Bash application that runs entirely in the terminal. It is built for users who need reliable, offline document and image processing without relying on external services or graphical applications.
+BashBox is a self-contained Bash application that runs entirely in the terminal. It is built for users who need reliable, offline document and image processing without relying on external services or graphical applications.
 
 **Key characteristics:**
 
@@ -65,7 +65,7 @@ sudo apt install imagemagick ghostscript libreoffice qpdf poppler-utils ffmpeg -
 **Step 2 — Clone the repository**
 
 ```bash
-git clone https://github.com/KAT924809/CLI_TOOLS.git
+git clone https://github.com/sunkmechie/BashBox.git
 cd CLI_TOOLS
 chmod +x img-tui.sh
 ```
@@ -110,7 +110,7 @@ It is strongly recommended to clone inside the WSL home directory for best perfo
 
 ```bash
 cd ~
-git clone https://github.com/KAT924809/CLI_TOOLS.git
+git clone https://github.com/sunkmechie/BashBox.git
 cd CLI_TOOLS
 chmod +x img-tui.sh
 ```
